@@ -16,7 +16,7 @@ spec:
     spec: 
      containers:
       - name: helloworld
-        image: samarth1311/node-helloworld
+        image: samarth1311/node-helloworld:latest
         ports:
         - containerPort: 8000
 ---
