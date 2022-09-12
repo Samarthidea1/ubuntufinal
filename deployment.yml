@@ -20,7 +20,8 @@ spec:
       - name: helloworld
         image: samarth1311/node-helloworld
         
-        ports: - containerPort: 8000
+        ports:
+        - containerPort: 8000
       
 ---
 apiVersion: v1
