@@ -2,7 +2,7 @@ const express = require('express');
 const PORT = 8000;
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Heyyy alexa!!!');
+  res.send('Heyyy Google!!!');
 });
 app.listen(PORT);
 console.log(`Running on ${PORT}`);
