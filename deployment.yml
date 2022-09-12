@@ -16,7 +16,7 @@ spec:
     spec: 
       containers:
       - name: helloworld
-        image: samarth1311/node-helloworld:BUILD_NUMBER
+        image: samarth1311/node-helloworld
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
