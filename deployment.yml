@@ -24,8 +24,8 @@ spec:
         ports:
         - containerPort: 8000
 
-        imagePullSecrets:
-        - name: regcred
+      imagePullSecrets:
+      - name: regcred
       
 ---
 apiVersion: v1
