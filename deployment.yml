@@ -33,6 +33,8 @@ metadata:
     app: helloworld
 spec:
   type: NodePort
+  strategy:
+    rollingUpdate: {}
   ports:
   - port: 8000
     protocol: TCP
