@@ -1,7 +1,8 @@
-FROM node:16
+# syntax=docker/dockerfile:1
+FROM node:16.17.0
+ENV NODE_ENV=production
 WORKDIR /home/ubuntu/project 
-COPY package*.json ./ 
-RUN npm install
+COPY ["package.json", "package-lock.json*", "./"] 
+RUN npm install --production
 COPY . . 
-EXPOSE 8000
 CMD [ "node", "server.js" ]
