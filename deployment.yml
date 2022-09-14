@@ -17,7 +17,7 @@ spec:
     spec: 
       containers:
       - name: helloworld
-        image: samarth1311/nodejs-helloworld:latest
+        image: samarth1311/nodejs-helloworld
         imagePullPolicy: Always
         
         ports:

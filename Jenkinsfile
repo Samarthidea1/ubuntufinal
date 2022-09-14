@@ -39,9 +39,9 @@ pipeline{
             steps{
                 
                 sh "cp -r /var/lib/jenkins/workspace/'pipeline job'/* /home/ubuntu/test"
-                
                 sh "kubectl apply -f deployment.yml"
-                
+                sh "kubectl delete -f deployment.yml"
+		sh "kubectl apply -f deployment.yml"                
                 
             }
         }
