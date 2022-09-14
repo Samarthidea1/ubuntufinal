@@ -16,7 +16,7 @@ spec:
         app: helloworld
     spec: 
       containers:
-      - name: minikube
+      - name: helloworld
         image: samarth1311/nodejs-helloworld:latest
         imagePullPolicy: Always
         
