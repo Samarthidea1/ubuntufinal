@@ -9,8 +9,7 @@ spec:
   selector:    
     matchLabels:
       app: helloworld
-  strategy:
-    rollingUpdate: {}
+ 
   template:
     metadata:
       labels:
